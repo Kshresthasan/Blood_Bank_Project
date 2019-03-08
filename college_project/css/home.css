@@ -1,0 +1,79 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+header
+{
+	height: 100vh;
+	background-image: url(../images/homeback.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.logo img
+{
+	width: 90px;
+	height: auto;
+	float: left;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+	width: 650px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+h1.home
+{
+	width: auto;
+	color: white;
+	text-transform: uppercase;
+	font-size: 90px;
+	text-align: center;
+	margin-top: 245px;
+}
+
